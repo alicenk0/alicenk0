@@ -226,7 +226,7 @@ p{
 	flex-wrap:wrap;
 	justify-content:stretch;
 	flex-direction: column;
-	min-width: 70%;
+	min-width: 60%;
 }
 
 #footer{
