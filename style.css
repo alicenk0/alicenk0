@@ -432,6 +432,7 @@ p{
     .info{
     display:none;
     margin: 0 auto;
+	flex-flow: column;
     }
 
     .info p{
