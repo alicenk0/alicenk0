@@ -208,6 +208,7 @@ p{
 .info .caption{
   margin-top: 0;
   margin-bottom: 2em;
+  width: 100%;
 }
 
 
@@ -223,7 +224,7 @@ p{
 	flex-wrap:wrap;
 	justify-content:stretch;
 	flex-direction: column;
-	min-width: 60%;
+	min-width: 70%;
 }
 
 #footer{
@@ -461,7 +462,7 @@ p{
 
     #topbar{
       height: 4vh;
-      padding: 2vh 0;
+      padding: 2vh;
     }
 
     #container{display:none;}
