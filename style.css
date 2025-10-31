@@ -111,7 +111,9 @@ p{
   width: 100%;
   text-align: right;
   position: relative;
+  padding: 0px 10px 0px 0px;
 }
+
 .close p{
   font-size: 15px;
 }
@@ -449,8 +451,8 @@ p{
 
     .info .margin{
       width: 90%;
-      margin-left: 5%;
     }
+	
 
     #title{
     position: relative;
@@ -469,8 +471,5 @@ p{
 
     .info.viewer{
       padding-bottom: 15vh;
-    }
-    .info .caption{
-      margin-left: 20px;
     }
 }
