@@ -249,8 +249,13 @@ p{
 	margin: 0 auto;
 }
 
+.imgGridWide{
+	column-count: 3;
+}
+
 .imgGridItem{
 	background-color: rgba(150,150,150,0.2);
+	break-inside: avoid;
 }
 
 .imgGridItem img{
