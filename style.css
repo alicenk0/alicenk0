@@ -191,6 +191,12 @@ p{
 	-webkit-text-stroke-color: #fff;
 }
 
+.info.viewer{
+	max-width: 90vw;
+	margin: 0 auto;
+	padding-bottom: 5vh;
+}
+
 .info{
     display:none;
     left: 5px;
@@ -205,12 +211,18 @@ p{
 
 .info .margin{
     padding: 10px 50px 10px 30px;
+	margin: 0 auto;
+	padding: 20px;
+	width: 50%;
+
 }
 
 .info .caption{
   margin-top: 0;
   margin-bottom: 2em;
-  width: 100%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -479,9 +491,9 @@ p.imgGridItem{
       width: auto;
     }
 
-    .info img, .info iframe{
+    .info img, .info iframe, .info .caption{
       width:90%;
-      margin: 0 5%;
+      margin: 0 5% 5% 5%;
     }
 
     .info .margin{

@@ -6,7 +6,7 @@ $('.grid,.about')
         $('.close').fadeIn('slow');
         $('#viewspace').show();
         $('#viewspace .info.viewer').slideDown("slow", function(){
-		  $('#viewspace .info.viewer').css({display:"flex"});
+		  $('#viewspace .info.viewer').css({display:"block"});
         });
         $("html, body").animate({scrollTop: 0}, "fast");
     });
