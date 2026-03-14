@@ -229,6 +229,39 @@ p{
 	min-width: 60%;
 }
 
+.imgGrid{
+	column-count: 4;
+	column-gap: 30px;
+	row-gap: 30px;
+}
+
+.imgGridItem{
+	background-color: rgba(150,150,150,0.2);
+}
+
+.imgGridItem img{
+	width: 100%;
+	background-color: transparent;
+	margin: 0;
+	max-height: none;
+	object-fit:contain;
+}
+
+.imgGridItem .caption{
+	text-align: center;
+	width: auto;
+	padding-bottom: 15px;
+}
+
+p.imgGridItem{
+	margin-top: 0;
+	padding: 20px;
+	width: auto;
+	background-color: rgba(20,20,20,0.85);
+	color: aliceblue;
+	border-radius: 5px;
+}
+
 #footer{
     clear: both;
     padding: 20px;
